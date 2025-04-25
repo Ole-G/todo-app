@@ -123,7 +123,7 @@ const TodoList = () => {
   if (isLoading) {
     return (
       <div className="todo-container">
-        <h1>Список справ</h1>
+        <h1>Список справ Юлії Лисенко</h1>
         <p>Завантаження...</p>
       </div>
     );
@@ -131,7 +131,7 @@ const TodoList = () => {
 
   return (
     <div className="todo-container">
-      <h1>Список справ</h1>
+      <h1>Список справ Юлії Лисенко</h1>
       <AddTodo addTodo={addTodo} />
       
       {todos.length === 0 ? (
